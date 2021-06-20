@@ -22,5 +22,5 @@ function createButton(voiceDirectory, name, filenameExtension) {
 
 }
 for (var i = 0; i < list.length; i++) {
-    createButton('.', list[i], '.wav');
+    createButton('./', list[i], '.wav');
 }
